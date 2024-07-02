@@ -1,0 +1,32 @@
+{
+  "name": "com.unity.test-framework",
+  "displayName": "Test Framework",
+  "version": "1.1.33",
+  "unity": "2019.2",
+  "unityRelease": "0a10",
+  "description": "Test framework for running Edit mode and Play mode tests in Unity.",
+  "keywords": [
+    "Test",
+    "TestFramework"
+  ],
+  "category": "Unity Test Framework",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/com.unity.test-framework.git",
+    "type": "git",
+    "revision": "34a4d423d64926635eb36d3bb86276179cc186e1"
+  },
+  "dependencies": {
+    "com.unity.ext.nunit": "1.0.6",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.test-framework.tests": "1.1.33"
+  },
+  "_upm": {
+    "changelog": "- Fixed an issue where using Assert.Expect with the same string multiple times can lead to incorrect errors in some cases (DSTR-442).\r\n- Improved the logging when using multiple Assert.Expect that the logs appear in another order than expected (DSTR-442).\r\n- Moved the targetPlatform specified when running tests in the TestRunnerApi from the Filter to the ExecutionSettings (DSTR-186).\r\n- Fixed an issue where an inheritance of UnityPlatformAttribute which was not working (ESTT-70).\r\n- Fixed the log of excluded platforms which was not displaying the right information.\r\n- Added filename and linenumber to test finished message (DSTR-505).\r\n- Add the possibility of running tests in a specified order from a test list (DSTR-494)."
+  },
+  "upmCi": {
+    "footprint": "2279493b9acd323ab758f64369634dc0daf0dbac"
+  }
+}

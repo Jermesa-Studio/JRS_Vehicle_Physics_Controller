@@ -1,0 +1,23 @@
+{
+  "name": "com.unity.postprocessing",
+  "version": "3.4.0",
+  "displayName": "Post Processing",
+  "unity": "2019.4",
+  "unityRelease": "19f1",
+  "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+  "dependencies": {
+    "com.unity.modules.physics": "1.0.0"
+  },
+  "_upm": {
+    "changelog": "### Added\n- Added WebGPU support\n\n### Fixed\n- Fixed obsolete FormatUsage error\n- Fixed non-scalar logical operation error\n- Fixed MSVO to support platforms with limited storage texture support\n- Fixed compute based effects not supported on WebGL and Android OpenGL (IN-2999)\n- Fixed grid gizmo is visible through geometry when Post Process Layer is enabled (IN-10318)\n- Fixed transparent objects rendering incorrectly when TAA is disabled (IN-31494)"
+  },
+  "upmCi": {
+    "footprint": "edeb77f91ce97971a107effdd522676d85d7e360"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/Graphics.git",
+    "type": "git",
+    "revision": "54427d2529ad1a9e8f31c693d751c6371f914e40"
+  }
+}

@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/JS Vehicle Physics Controller/Scene AMR/PC Controller Scene AMR 01.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

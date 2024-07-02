@@ -1,0 +1,40 @@
+{
+  "name": "com.unity.collab-proxy",
+  "displayName": "Version Control",
+  "version": "2.3.1",
+  "unity": "2020.3",
+  "unityRelease": "48f1",
+  "description": "The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
+  "keywords": [
+    "backup",
+    "cloud",
+    "collab",
+    "collaborate",
+    "collaboration",
+    "control",
+    "devops",
+    "plastic",
+    "plasticscm",
+    "source",
+    "team",
+    "teams",
+    "version",
+    "vcs"
+  ],
+  "category": "Editor",
+  "relatedPackages": {
+    "com.unity.collab-proxy.tests": "2.3.1"
+  },
+  "_upm": {
+    "changelog": "Unity Version Control is now available as part of the Version Control Package! You can enable Unity Version Control via Window > Unity Version Control to get started!\nIf you have previously used the Unity Asset Store Plastic SCM plug-in, you can now simply use this package. Make sure you delete the plug-in from your project.\nRemoving a previously added Plastic SCM Asset Store Plug-In:\n\n- Select the PlasticSCM folder in the Assets\\Plugins folder on the Project tab, then click Edit > Delete\n- Close the Unity Editor and open your project again. You will find the Plastic SCM menu item in the Window menu.\n\n### Added\n\n- New view to list and manage locks.\n\n### Fixed\n\n- Fixed DropdownField not working properly on a ModalUtility window on MacOS.\n- Fixed issue with existing checkout operations locking the workspace.\n- Retained locks prevented to checkout assets.\n- Reviewed initialization and application lifecycle.\n- Fixed layout error when switching checkout status in the inspector.\n- Fixed Diff option unavailable for .prefab.\n- Fixed UI error when opening and closing multiple closable tabs.\n- Ensured branch creations start from the latest changeset.\n- Unable to expand added item list after collapsing.\n- Pending Changes context menu had the view file history greyed out for asset+meta.\n- Preconfigured date format was not recognized as a valid DateTime.\n- Fixed finding changes operation being firing constantly.\n- Removed obsolete content in package documentation.\n- Fixed typo in locks tooltip."
+  },
+  "upmCi": {
+    "footprint": "11a1cb66191871ff0c6847a1fdae7d022c6300d4"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.3/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git",
+    "type": "git",
+    "revision": "613362ccb4468f55ee42e0a35809fb9a61f3f8f1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "ErrorExceptions":
+    [
+        {
+             "ValidationTest": "Xmldoc Validation",
+             "PackageVersion": "1.9.4"
+        }
+    ]
+}

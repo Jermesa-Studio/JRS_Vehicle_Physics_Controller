@@ -1,0 +1,39 @@
+{
+  "name": "com.unity.testtools.codecoverage",
+  "displayName": "Code Coverage",
+  "version": "1.2.5",
+  "unity": "2019.3",
+  "description": "Use this package to export code coverage data and reports from your automated tests. Additionally, the Code Coverage package offers a Coverage Recording feature which allows capturing coverage data on demand, for manual testing or when there are no automated tests in the project.",
+  "keywords": [
+    "test",
+    "coverage",
+    "testing",
+    "opencover"
+  ],
+  "dependencies": {
+    "com.unity.test-framework": "1.0.16",
+    "com.unity.settings-manager": "1.0.1"
+  },
+  "samples": [
+    {
+      "displayName": "Code Coverage Tutorial",
+      "description": "The Code Coverage Tutorial will give you an insight into what Code Coverage is and how you can identify areas of your code that need more testing, even if you haven't written any automated tests.",
+      "path": "Samples~/Tutorial"
+    }
+  ],
+  "relatedPackages": {
+    "com.unity.testtools.codecoverage.tests": "1.2.5"
+  },
+  "_upm": {
+    "changelog": "### Fixes\n- Fixed failing to generate code coverage for assemblies whose name starts with 'system' (case [COV-38](https://issuetracker.unity3d.com/issues/code-coverage-fails-to-generate-a-report-when-the-assembly-name-begins-with-the-word-system)).\n- Fixed results xml file not been correctly stored under the EditMode folder if it is written after a domain reload (case [COV-36](https://issuetracker.unity3d.com/issues/coverage-results-xml-file-is-not-categorized-as-editmode-if-it-is-written-after-domain-reload))."
+  },
+  "upmCi": {
+    "footprint": "ad970678298e21dbc58c14a0a149f4d8443485f5"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git",
+    "type": "git",
+    "revision": "afeb9febf6597fcc31c99ca116d6a82b1e97b9f5"
+  }
+}

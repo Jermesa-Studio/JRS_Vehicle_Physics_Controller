@@ -1,0 +1,43 @@
+apiRules:
+    - exclude:
+        # inherited Object methods
+        uidRegex: ^System\.Object\..*$
+        type: Method
+    - exclude:
+        # mentioning types from System.* namespace
+        uidRegex: ^System\..*$
+        type: Type
+    - exclude:
+        # mentioning types from NiceIO.* namespace
+        uidRegex: ^NiceIO\..*$
+        type: Type
+    - exclude:
+        # mentioning types from Format.* namespace
+        uidRegex: ^Format\..*$
+        type: Type
+    - exclude:
+        hasAttribute:
+            uid: System.ObsoleteAttribute
+        type: Member
+    - exclude:
+        hasAttribute:
+            uid: System.ObsoleteAttribute
+        type: Type
+    - exclude:
+        uidRegex: ^$
+        type: Namespace
+    - exclude:
+        uidRegex: .*Tests$
+        type: Type
+    - exclude:
+        uidRegex: .*Test$
+        type: Type
+    - exclude:
+        uidRegex: .*Fixture$
+        type: Type
+    - exclude:
+        uidRegex: UnityEditor.Performance.ProfileAnalyzer.DepthSliceUI
+        type: Type
+    - exclude:
+        uidRegex: GetUIThreadName
+        type: Method

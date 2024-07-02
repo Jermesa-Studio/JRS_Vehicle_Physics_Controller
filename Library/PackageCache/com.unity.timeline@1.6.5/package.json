@@ -1,0 +1,47 @@
+{
+  "name": "com.unity.timeline",
+  "displayName": "Timeline",
+  "version": "1.6.5",
+  "unity": "2019.3",
+  "keywords": [
+    "unity",
+    "animation",
+    "editor",
+    "timeline",
+    "tools"
+  ],
+  "description": "Use Unity Timeline to create cinematic content, game-play sequences, audio sequences, and complex particle effects.",
+  "dependencies": {
+    "com.unity.modules.director": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.timeline.tests": "1.6.5"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n\n- Fixed issue where modifying curves on an animation clip did not trigger an evaluation of the graph when the Timeline Window is hidden. (TB-117)\n- Fixed an issue where the Timeline Window's UI would not update until the user clicked in the window if the TimelineAsset's file contents were changed on disk, such as during a version control operation (TB-46)"
+  },
+  "upmCi": {
+    "footprint": "b8271968619d88d048088928de28cd1f186b121a"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.timeline@1.6/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git",
+    "type": "git",
+    "revision": "4ed67a7e62ce940db3d44dc5eca8fade1c664aed"
+  },
+  "samples": [
+    {
+      "displayName": "Customization Samples",
+      "description": "This sample demonstrates how to create custom timeline tracks, clips, markers and actions.",
+      "path": "Samples~/Customization"
+    },
+    {
+      "displayName": "Gameplay Sequence Demo",
+      "description": "This sample demonstrates how Timeline can be used to create a small in-game moment, using built-in Timeline tracks.",
+      "path": "Samples~/GameplaySequenceDemo"
+    }
+  ]
+}
