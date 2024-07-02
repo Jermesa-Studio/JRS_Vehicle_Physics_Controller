@@ -3,7 +3,7 @@
 
 # Introduction:
 
-The JS C# scripts is a powerful tool that allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
+The JS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
 
  
 
