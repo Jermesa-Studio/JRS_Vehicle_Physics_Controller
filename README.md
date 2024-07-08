@@ -1,6 +1,7 @@
 # JS Vehicle Physics Controller For Unity
 ![JS_Vehicle_Physics_Controller](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/assets/174464051/b08c6bcf-ffed-4aa2-989a-1a224d914e29)
 
+PDF Guide: You can check out the full PDF guide here https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/b7940385df4c6398e2cb266b16a0a1c270333b39/JS%20Vehicle%20Physic%20Controller%20Guide.pdf
 # Introduction:
 
 The JS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
@@ -223,11 +224,9 @@ Note: You can refer to this How to make an Audio Source Component?
 
 # Camera Set-up
 
-In these steps, you will learn how to set up and adjust the parameters for each camera in the inspector. In this set-up we will have two cameras Follow and Orbit camera. You can customize the behaviour of the Follow and Orbit Camera scripts to achieve the desired camera movement and zooming effects in your project.
+In these steps, you will learn how to set up and adjust the camera’s parameters in the inspector. You can customize the behaviour of the Camera scripts to achieve the desired camera movement and zooming effects in your project.
 
 # JS Follow Camera (Script)
-
-Attach the script to a camera GameObject in your scene.
 
 ### Understanding the parameters:
 
@@ -240,8 +239,6 @@ Horizontal Spring Constant - This parameter controls how much the camera will sp
 Horizontal Damping Constant - This parameter controls how much the camera will dampen horizontal movement. Adjust this value to control how smooth or jerky the camera's movements are. (eg 25)
 
 # JS Orbit Camera (Script)
-
-Attach the script to a camera GameObject in your scene.
 
 ### Understanding the parameters:
 
@@ -263,27 +260,27 @@ Middle Area Percentage - To define the size of the middle area on the screen whe
 
 You can play the scene and interact with the camera using mouse or touch input within the designated middle area to rotate the camera around the target and zoom in and out.
 
-Switch Camera View Using the Toggle Script
+## Switch Camera View Using the Toggle Script
+We need to attach both scripts (JS Follow Camera and JS Orbit Camera) to our camera so that we can switch between them using the JS Toggle Script. The JS Toggle script enables one script while disabling all other scripts.
 
 # JS Toggle (Script)
 
 Let's start by looking at the parameters in the Inspector:
 
-Script Toggles: This is an elements of Script Toggles, where each element consists of a script and a toggle key. The script is a reference to a MonoBehaviour script in Unity.
+Script: This is an elements of Script Toggles, where each element consists of a script and a toggle key. The script is a reference to a MonoBehaviour script in Unity.
 
 Toggle key: This is the keyboard key that will trigger the toggle action.
 
 Now, when you run your Unity scene, you can press the assigned toggle key for each script to enable or disable it. Pressing the toggle key for a specific script will enable that script and disable all others.
 
-How to use the toggle script to switch between cameras?
+### How to use the toggle script to switch between cameras?
 
-In this example, we will use the two cameras we have: the Follow camera and the Orbit camera. We can switch between them using an assigned key. For camera switch using Mobile input please refer to Camera Switch with On-Screen input
+In this example, we will see how to switch between camera views using an assigned key. For camera switch using Mobile input please refer to Camera Switch with On-Screen input
 
-### Camera Follow:
+Let's attach three scripts to our camera: the JS Follow Camera script, the JS Orbit Camera script, and the JS Toggle script.
 
-Let's attach three scripts to this camera (Camera Follow): the JS Follow Camera script, the JS Orbit Camera script, and the JS Toggle script.
 
-Important : Since this is the Follow Camera so we need to disable the JS Orbit Camera script in the check box
+Important : Only one camera script should be enabled; all other camera scripts should be disabled in their checkboxes. In our case, we will enable only the JS Follow Camera script, so when we play the game, it will initially show this camera view.
 
 Under the JS Toggle script In the Inspector, you will see a section called Script Toggles. Click on the "+" button to add a new element to the array.
 
@@ -298,16 +295,6 @@ Toggle Key : specify the keyboard key that will trigger the toggle action lets s
 Script : drag and drop the JS Orbit Camera Script (drag it from within the inspector panel of Camera Follow not from your script folder).
 
 Toggle Key : specify the keyboard key that will trigger the toggle action lets select Alpha 1
-
-### Camera Orbit:
-
-Similarly, let's attach three scripts in this camera (Camera Orbit): the JS Follow Camera script, the JS Orbit Camera script, and the JS Toggle Script.
-
-Important : Since this is the Orbit Camera so we need to disable the JS Follow Camera script in the check box
-
-Now Under the JS Toggle script
-
-Repeat the same steps as we did for the Camera Follow
 
 # JS Vehicle Door (Script)
 
