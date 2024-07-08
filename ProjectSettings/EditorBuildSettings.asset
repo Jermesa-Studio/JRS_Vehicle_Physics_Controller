@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/JS Vehicle Physics Controller/Scene AMR/PC Controller Scene AMR
+      01.unity
+    guid: 661f5e0419cbb5441842e08fd0f304bc
   m_configObjects: {}
