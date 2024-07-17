@@ -2,7 +2,8 @@
 ![JS_Vehicle_Physics_Controller](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/assets/174464051/b08c6bcf-ffed-4aa2-989a-1a224d914e29)
 
 #### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/a91ad9cb5772d2e42c23961143e1a73cb912353e/JS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
-#### Join our [Discord server](https://discord.gg/4jC5BnzJvT)         
+#### Join our [Discord server](https://discord.gg/4jC5BnzJvT) 
+#### YouTube demo [Video](https://youtu.be/NTFXoY1ex08) 
 
 # Introduction:
 
