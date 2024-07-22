@@ -1,5 +1,6 @@
-# JS Vehicle Physics Controller For Unity
-![JS_Vehicle_Physics_Controller](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/assets/174464051/b08c6bcf-ffed-4aa2-989a-1a224d914e29)
+# JRS Vehicle Physics Controller For Unity
+![Free and Open Source JRS Vehicle Physics Controller Script for Unity Square1080 3](https://github.com/user-attachments/assets/d8567c13-1bea-4162-b940-8445a767ca31)
+
 
 #### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/a91ad9cb5772d2e42c23961143e1a73cb912353e/JS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
 #### Join our [Discord server](https://discord.gg/4jC5BnzJvT) 
@@ -7,7 +8,7 @@
 
 # Introduction:
 
-The JS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
+The JRS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
 
  
 
