@@ -2,7 +2,7 @@
 ![Free and Open Source JRS Vehicle Physics Controller Script for Unity Square1080 3](https://github.com/user-attachments/assets/d8567c13-1bea-4162-b940-8445a767ca31)
 
 
-#### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/68f70079b0a14bffc54bc1814adb9d72f9542626/JRS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
+#### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/9f9328c16411f2d046d3dfa2fc348320c7def258/JRS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
 #### Join our [Discord server](https://discord.gg/4jC5BnzJvT) 
 #### YouTube demo [Video](https://youtu.be/NTFXoY1ex08) 
 
