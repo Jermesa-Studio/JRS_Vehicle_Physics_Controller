@@ -15,7 +15,7 @@ This guide include a step-by-step explanation of the JS C# scripts for the Vehic
 
 
 
-***Note** : AI was used as an assistance for **text** generating purposes like code, title, descriptions, info, idea, documentation etc.
+***Note** : AI was used as an assistance for **text** generating purposes such as code, title, descriptions, info, idea, documentation etc.
 
 
 # Getting Started:
