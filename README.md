@@ -530,43 +530,28 @@ Since we're using the same script function for both keyboard input and on-screen
 
 To Fix this we need to Uncomment the lines of code related to mobile input controller for this functionality to work. Open the JSVehicleLightControl.cs and uncomment the below line of codes inside the Update() function
 
-        // Uncomment the below function so that the the reverse light for mobile will work
+```
+// Uncomment the below function so that the reverse light for mobile will work
+// if (mobileInputController.revButton.IsButtonPressed())
+// {
+// ToggleReverseLights(true);
+// }
+// if (mobileInputController.revButton.IsButtonReleased())
+// {
+// ToggleReverseLights(false);
+// }
 
-        // if (mobileInputController.revButton.IsButtonPressed())
 
-        // {
-
-        //     ToggleReverseLights(true);
-
-        // }
-
-        // if (mobileInputController.revButton.IsButtonReleased())
-
-        // {
-
-        //     ToggleReverseLights(false);
-
-        // }
-
-         //Uncomment the below function so that the the brake light for mobile will work
-
-       
-
-        // if (mobileInputController.brakeButton.IsButtonPressed())
-
-        // {
-
-        //     ToggleBrakeLights(true);
-
-        // }
-
-        // if (mobileInputController.brakeButton.IsButtonReleased())
-
-        // {
-
-        //     ToggleBrakeLights(false);
-
-        // }
+// Uncomment the below function so that the the brake light for mobile will work
+// if (mobileInputController.brakeButton.IsButtonPressed())
+// {
+// ToggleBrakeLights(true);
+// }
+// if (mobileInputController.brakeButton.IsButtonReleased())
+// {
+// ToggleBrakeLights(false);
+// }
+```
 
 ## Please Check out our Asset Store Page if you need any 3d Vehicles! for your projects!
 
