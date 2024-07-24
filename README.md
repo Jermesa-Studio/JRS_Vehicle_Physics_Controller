@@ -532,6 +532,7 @@ To Fix this we need to Uncomment the lines of code related to mobile input contr
 
 ```
 // Uncomment the below function so that the reverse light for mobile will work
+
 // if (mobileInputController.revButton.IsButtonPressed())
 // {
 // ToggleReverseLights(true);
@@ -543,6 +544,7 @@ To Fix this we need to Uncomment the lines of code related to mobile input contr
 
 
 // Uncomment the below function so that the the brake light for mobile will work
+
 // if (mobileInputController.brakeButton.IsButtonPressed())
 // {
 // ToggleBrakeLights(true);
