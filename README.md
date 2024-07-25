@@ -560,7 +560,7 @@ To Fix this we need to Uncomment the lines of code related to mobile input contr
 // }
 ```
 
-## Please Check out our Asset Store Page if you need any 3d Vehicles! for your projects!
+## Please feel free to browse our Asset Store, where we provide a wide variety of game assets to suit your unique needs.
 
 Asset Store Link: https://assetstore.unity.com/publishers/26267
 
