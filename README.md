@@ -8,7 +8,12 @@
 
 # Introduction:
 
-The JRS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
+The JRS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. 
+
+These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system, door animations and even dust particle effects. Supports keyboard and mobile input. Adjust Motor Force, Max Steer Angle, Brake Force, and Gear Ratios. Enable 4x4 drive mode for better off-road performance. 
+
+
+In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
 
 This guide include a step-by-step explanation of the JS C# scripts for the Vehicle, including the parameters in the Inspector and how to use them effectively.
 
