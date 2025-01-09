@@ -2,7 +2,7 @@
 ![Free and Open Source JRS Vehicle Physics Controller Script for Unity Square1080 3](https://github.com/user-attachments/assets/d8567c13-1bea-4162-b940-8445a767ca31)
 
 
-#### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/9f9328c16411f2d046d3dfa2fc348320c7def258/JRS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
+#### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JRS_Vehicle_Physics_Controller/blob/main/JRS%20Vehicle%20Physic%20Controller%20Guide%20V4.pdf) 
 #### Join our [Discord server](https://discord.gg/4jC5BnzJvT) 
 #### YouTube demo [Video](https://youtu.be/NTFXoY1ex08) 
 
@@ -15,7 +15,7 @@ These script handles various aspects of vehicle physics, including steering, acc
 
 In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
 
-This guide include a step-by-step explanation of the JS C# scripts for the Vehicle, including the parameters in the Inspector and how to use them effectively.
+This guide include a step-by-step explanation of the Jrs C# scripts for the Vehicle, including the parameters in the Inspector and how to use them effectively.
 
 
 
@@ -30,11 +30,11 @@ Attach the Scripts to Your Vehicle:
 
 Ensure that the required scripts is attached to the GameObject representing your parent vehicle object in the Unity scene.
 
-Here I have ‘AMR_Police_Vehicle’ as the parent object of my vehicle and lets attach the following three script in the inspector panel: • JS Police Siren (Script)
+Here I have ‘AMR_Police_Vehicle’ as the parent object of my vehicle and lets attach the following three script in the inspector panel: • Jrs Police Siren (Script)
 
-•    JS Vehicle Light Control (Script)
+•    Jrs Vehicle Light Control (Script)
 
-•    Js Vehicle Controller (Script)
+•    Jrs Vehicle Controller (Script)
 
 Adding Rigidbody and Box Collider:
 
@@ -56,7 +56,7 @@ Next we need to create Box Collider for our Vehicle. We can add as many Box Coll
 
 In every script, you'll find various parameters that control your vehicle's behavior. Let's understand them one by one.
 
-## JS Police Siren (Script)
+## Jrs Police Siren (Script)
 
 Siren Sound - Drag and drop an Audio Source component here to be used as the police siren sound.
 
@@ -66,7 +66,7 @@ Siren Sound - Drag and drop an Audio Source component here to be used as the pol
 
 •    In the Inspector panel, click on Add Component and select Audio Source. Now, drag and drop your sound clip under AudioClip parameter.
 
-•    Finally, assign this "Siren Sound" GameObject to the JS Police Siren (Script) in the Inspector panel under Siren Sound parameters.
+•    Finally, assign this "Siren Sound" GameObject to the Jrs Police Siren (Script) in the Inspector panel under Siren Sound parameters.
 
 Red Lights - These parameters allow you to assign game objects or lights that represent the red lights of the police siren that will flicker. You can add as many objects or lights as you wish by clicking the '+' icon.
 
@@ -80,11 +80,11 @@ Same here also have a glow emissive object and light for the blue signal, I can 
 
 ### Input Key
 
-By default you can press ‘P’ on the keyboard to toggle ON/OFF police siren. You can also customize the key by editing the KeyCode inside the Update() function in the JSPoliceSiren.cs Script. For Mobile input you can check out how to set-up On-screen buttons.
+By default you can press ‘P’ on the keyboard to toggle ON/OFF police siren. You can also customize the key by editing the KeyCode inside the Update() function in the JrsPoliceSiren.cs Script. For Mobile input you can check out how to set-up On-screen buttons.
 
-# JS Vehicle Light Control (Script)
+# Jrs Vehicle Light Control (Script)
 
-In the Inspector window of your parent object (AMR_Police_Vehicle) and under JS Vehicle Light Control (Script), you will see several parameters that you can use to control your vehicle lights
+In the Inspector window of your parent object (AMR_Police_Vehicle) and under Jrs Vehicle Light Control (Script), you will see several parameters that you can use to control your vehicle lights
 
 Headlight Elements - Here you can assign GameObjects/Lights representing the headlights of the vehicle.
 
@@ -112,15 +112,15 @@ Spacebar - Brake lights will be activated when you apply brake to your vehicle.
 
 You can also customize the key by editing the KeyCode inside the Update() function in the
 
-JSVehicleLightControl.cs Script. For Mobile input you can check out how to set-up On-screen buttons.
+JrsVehicleLightControl.cs Script. For Mobile input you can check out how to set-up On-screen buttons.
 
-# JS Vehicle Controller (Script)
+# Jrs Vehicle Controller (Script)
 
-This is a basic step-by-step guide on how to use the "Js Vehicle Controller" script for Unity:
+This is a basic step-by-step guide on how to use the "Jrs Vehicle Controller" script for Unity:
 
 ## Understanding the Variables:
 
-In the Inspector window of your parent object (AMR_Police_Vehicle) and under JS Vehicle Controller (Script), you will see several parameters that you can use to control your vehicle lights
+In the Inspector window of your parent object (AMR_Police_Vehicle) and under Jrs Vehicle Controller (Script), you will see several parameters that you can use to control your vehicle lights
 
 ### Motor Force:
 
@@ -240,7 +240,7 @@ Note: You can refer to this How to make an Audio Source Component?
 
 In these steps, you will learn how to set up and adjust the camera’s parameters in the inspector. You can customize the behaviour of the Camera scripts to achieve the desired camera movement and zooming effects in your project.
 
-# JS Follow Camera (Script)
+# Jrs Follow Camera (Script)
 
 ### Understanding the parameters:
 
@@ -252,7 +252,7 @@ Horizontal Spring Constant - This parameter controls how much the camera will sp
 
 Horizontal Damping Constant - This parameter controls how much the camera will dampen horizontal movement. Adjust this value to control how smooth or jerky the camera's movements are. (eg 25)
 
-# JS Orbit Camera (Script)
+# Jrs Orbit Camera (Script)
 
 ### Understanding the parameters:
 
@@ -275,9 +275,9 @@ Middle Area Percentage - To define the size of the middle area on the screen whe
 You can play the scene and interact with the camera using mouse or touch input within the designated middle area to rotate the camera around the target and zoom in and out.
 
 ## Switch Camera View Using the Toggle Script
-We need to attach both scripts (JS Follow Camera and JS Orbit Camera) to our camera so that we can switch between them using the JS Toggle Script. The JS Toggle script enables one script while disabling all other scripts.
+We need to attach both scripts (Jrs Follow Camera and Jrs Orbit Camera) to our camera so that we can switch between them using the Jrs Toggle Script. The Jrs Toggle script enables one script while disabling all other scripts.
 
-# JS Toggle (Script)
+# Jrs Toggle (Script)
 
 Let's start by looking at the parameters in the Inspector:
 
@@ -291,26 +291,26 @@ Now, when you run your Unity scene, you can press the assigned toggle key for ea
 
 In this example, we will see how to switch between camera views using an assigned key. For camera switch using Mobile input please refer to Camera Switch with On-Screen input
 
-Let's attach three scripts to our camera: the JS Follow Camera script, the JS Orbit Camera script, and the JS Toggle script.
+Let's attach three scripts to our camera: the Jrs Follow Camera script, the Jrs Orbit Camera script, and the Jrs Toggle script.
 
 
-Important : Only one camera script should be enabled; all other camera scripts should be disabled in their checkboxes. In our case, we will enable only the JS Follow Camera script, so when we play the game, it will initially show this camera view.
+Important : Only one camera script should be enabled; all other camera scripts should be disabled in their checkboxes. In our case, we will enable only the Jrs Follow Camera script, so when we play the game, it will initially show this camera view.
 
-Under the JS Toggle script In the Inspector, you will see a section called Script Toggles. Click on the "+" button to add a new element to the array.
+Under the Jrs Toggle script In the Inspector, you will see a section called Script Toggles. Click on the "+" button to add a new element to the array.
 
 Since we have just two cameras lets add two elements by clicking on “+”
 
 Inside Element 0, you will see two fields: Script and Toggle Key
 
-Script : drag and drop the JS Follow Camera Script (drag it from within the inspector panel of Camera Follow not from your script folder).
+Script : drag and drop the Jrs Follow Camera Script (drag it from within the inspector panel of Camera Follow not from your script folder).
 
 Toggle Key : specify the keyboard key that will trigger the toggle action lets select Alpha 1 Inside Element 1.
 
-Script : drag and drop the JS Orbit Camera Script (drag it from within the inspector panel of Camera Follow not from your script folder).
+Script : drag and drop the Jrs Orbit Camera Script (drag it from within the inspector panel of Camera Follow not from your script folder).
 
 Toggle Key : specify the keyboard key that will trigger the toggle action lets select Alpha 1
 
-# JS Vehicle Door (Script)
+# Jrs Door Mechanic (Script)
 
 1.  First, lets attach the script to the GameObject that represents the vehicle door you want to control.
 
@@ -326,9 +326,11 @@ Open Sound: This parameter lets you assign an AudioSource for the sound played w
 
 Close Sound: This parameter lets you assign an AudioSource for the sound played when the door closes.
 
+Axis to Rotate: You can select which axis (X/Y/Z) the door will rotate.
+
 To use the script, simply press the assigned Toggle Key (default is Space key) while in play mode in the Unity Editor. This will open or close the door based on its current state.
 
-# JS Lock Rotation (Script)
+# Jrs Lock Rotation (Script)
 
 This script is used to sync the position of a given object (wheel) while locking its rotation. I used it for brake pads inside the wheel since I don't want the brake pads to rotate with the wheel but only move along with it.
 
@@ -340,7 +342,7 @@ Wheel: This parameter requires a Transform object that represents the wheel. Dra
 
 2.  Observe how the object's rotation is locked but synchronized with the wheel's movement.
 
-# JS Input Controller (Script)
+# Jrs Input Controller (Script)
 
 The Input Controller script is a crucial component in creating a realistic and responsive vehicle simulation within your Unity project. In this guide, we'll explore the different parameters and functionalities of the Input Controller Script to help you get started.
 
@@ -354,7 +356,7 @@ How to use the Vehicle Input Controller in your Unity project?
 
 •    First create a Canvas by right-click inside the Hierarchy panel goto UI > Canvas
 
-•    Now attach the JSInputController (Script) and JS Camera Switcher (Script) to the Canvas that you have just created.
+•    Now attach the JrsInputController (Script) and Jrs Camera Switcher (Script) to the Canvas that you have just created.
 
 •    Now we need to create an image button for each input Right click on the Canvas
 
@@ -368,9 +370,9 @@ How to use the Vehicle Input Controller in your Unity project?
 
 • In the Unity Editor you can position your button where you want to place them
 
-• To make Accelerate button function as a button, you need to attach the JSCustombutton script to it
+• To make Accelerate button function as a button, you need to attach the JrsCustombutton script to it
 
-• Now select the Canvas from your Hierarchy and Under the JS Input Controller (Script) we need to assign each button accordingly.
+• Now select the Canvas from your Hierarchy and Under the Jrs Input Controller (Script) we need to assign each button accordingly.
 
 • To assign the Accelerate Button click on the small circle icon and then select Accelerate button.
 
@@ -390,13 +392,13 @@ If you have more than two cameras you can add more by clicking on the “+” ic
 
 • For Element 1 = Assign Camera Orbit by clicking on the small circle button.
 
-• Under JS Camera Switcher (Script) for the Input Controller we will assign our Canvas (since our Input controller Script was attached to our Canvas.)
+• Under Jrs Camera Switcher (Script) for the Input Controller we will assign our Canvas (since our Input controller Script was attached to our Canvas.)
 
 ## Keyboard Inputs (for PC)
 
 • First create a Canvas by right-click inside the Hierarchy panel go to UI > Canvas similar to what we did for the Mobile inputs.
 
-• Now attach the JSInputController (Script) to the Canvas that you have just created.
+• Now attach the JrsInputController (Script) to the Canvas that you have just created.
 
 • Since we don’t need any button on the screen we will simply disable them.
 
@@ -404,9 +406,9 @@ If you have more than two cameras you can add more by clicking on the “+” ic
 
 • Now we can use W/A/S/D key from the keyboard to drive the vehicle
 
-• We can also customize the keys if needed by editing the JSInputController script with your desire KeyCode inside the Update() function.
+• We can also customize the keys if needed by editing the JrsInputController script with your desire KeyCode inside the Update() function.
 
-### JS Input Controller (Script) Components:
+### Jrs Input Controller (Script) Components:
 
 The Vehicle Input Controller script consists of several key components, each with its own purpose and functionality. Let's dive into each of them:
 
@@ -476,19 +478,19 @@ The Vehicle Input Controller script consists of several key components, each wit
 
 -  These cameras can be used to provide different views of the vehicle, such as a third-person perspective or a first-person view.
 
-# JS Custom Button (Script)
+# Jrs Custom Button (Script)
 
-To use the JSCustomButton script in Unity, you need to attach it to a UI image or any other UI element that you want to function as a custom button.
+To use the JrsCustomButton script in Unity, you need to attach it to a UI image or any other UI element that you want to function as a custom button.
 
-In our case we need to create an image button as a child of the Canvas and attach the JSCustomButton script to it
+In our case we need to create an image button as a child of the Canvas and attach the JrsCustomButton script to it
 
 Please refer here: How to create an image button (Steps 2-4)
 
-By attaching the JSCustomButton script to a UI image, you can create custom buttons with specific behaviour such as detecting when the button is pressed, released, or clicked.
+By attaching the JrsCustomButton script to a UI image, you can create custom buttons with specific behaviour such as detecting when the button is pressed, released, or clicked.
 
-# JS Exit Application (Script)
+# Jrs Exit Application (Script)
 
-The JSExitApplication script allows the player to exit the application, toggle between Fullscreen and windowed mode, and resize the window on Windows platforms. It provides additional functionality for controlling the game window's display settings.
+The JrsExitApplication script allows the player to exit the application, toggle between Fullscreen and windowed mode, and resize the window on Windows platforms. It provides additional functionality for controlling the game window's display settings.
 
 Now, let's explain what the script does:
 
@@ -524,7 +526,7 @@ Scripts:
 
 Please check that all the scripts below are present and have been attached accordingly.
 
-JSCameraSwitcher, JSCustomButton, JSDoorMechanic, JSFollowCamera, JSOrbitCamera, JSInputController, JSLockRotation, JSPoliceSiren, JSToggleScripts, JsVehicleController, JSVehicleDoor, JSVehicleLightControl, JSExitApplication
+JrsCameraSwitcher, JrsCustomButton, JrsDoorMechanic, JrsFollowCamera, JrsOrbitCamera, JrsInputController, JrsLockRotation, JrsPoliceSiren, JrsToggleScripts, JrsVehicleController, JrsVehicleDoor, JrsVehicleLightControl, JrsExitApplication
 
 ## Unassigned Objects
 
@@ -534,7 +536,7 @@ Light System not function for On-Scree (Mobile input)
 
 Since we're using the same script function for both keyboard input and on-screen input, we might encounter some problem with the Brake and Reverse light not function when using the On-Screen input in Mobile
 
-To Fix this we need to Uncomment the lines of code related to mobile input controller for this functionality to work. Open the JSVehicleLightControl.cs and uncomment the below line of codes inside the Update() function
+To Fix this we need to Uncomment the lines of code related to mobile input controller for this functionality to work. Open the JrsVehicleLightControl.cs and uncomment the below line of codes inside the Update() function
 
 ```
 // Uncomment the below function so that the reverse light for mobile will work
