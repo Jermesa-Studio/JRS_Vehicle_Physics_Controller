@@ -310,7 +310,7 @@ Script : drag and drop the Jrs Orbit Camera Script (drag it from within the insp
 
 Toggle Key : specify the keyboard key that will trigger the toggle action lets select Alpha 1
 
-# Jrs Vehicle Door (Script)
+# Jrs Door Mechanic (Script)
 
 1.  First, lets attach the script to the GameObject that represents the vehicle door you want to control.
 
@@ -325,6 +325,8 @@ Toggle Key: This parameter allows you to set a keyboard key that will toggle the
 Open Sound: This parameter lets you assign an AudioSource for the sound played when the door opens.
 
 Close Sound: This parameter lets you assign an AudioSource for the sound played when the door closes.
+
+Axis to Rotate: You can select which axis (X/Y/Z) the door will rotate.
 
 To use the script, simply press the assigned Toggle Key (default is Space key) while in play mode in the Unity Editor. This will open or close the door based on its current state.
 
