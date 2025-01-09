@@ -2,13 +2,18 @@
 ![Free and Open Source JRS Vehicle Physics Controller Script for Unity Square1080 3](https://github.com/user-attachments/assets/d8567c13-1bea-4162-b940-8445a767ca31)
 
 
-#### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/68f70079b0a14bffc54bc1814adb9d72f9542626/JRS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
+#### PDF Guide: You can check out the [Full PDF guide](https://github.com/Jermesa-Studio/JS_Vehicle_Physics_Controller/blob/9f9328c16411f2d046d3dfa2fc348320c7def258/JRS%20Vehicle%20Physic%20Controller%20Guide.pdf) 
 #### Join our [Discord server](https://discord.gg/4jC5BnzJvT) 
 #### YouTube demo [Video](https://youtu.be/NTFXoY1ex08) 
 
 # Introduction:
 
-The JRS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system and even dust particle effects. In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
+The JRS Vehicle Physics Controller scripts allows you to create realistic and responsive vehicle behavior in your Unity game or simulation. 
+
+These script handles various aspects of vehicle physics, including steering, acceleration, braking, vehicle light system, door animations and even dust particle effects. Supports keyboard and mobile input. Adjust Motor Force, Max Steer Angle, Brake Force, and Gear Ratios. Enable 4x4 drive mode for better off-road performance. 
+
+
+In this guide, we'll explore the different parameters available in the Inspector of each script and how to use them to customize your vehicle's behavior.
 
 This guide include a step-by-step explanation of the JS C# scripts for the Vehicle, including the parameters in the Inspector and how to use them effectively.
 
@@ -17,6 +22,7 @@ This guide include a step-by-step explanation of the JS C# scripts for the Vehic
 
 ***Note** : AI was used as an assistance for **text** generating purposes such as code, title, descriptions, info, idea, documentation etc.
 
+Please feel free to browse our [Asset Store](https://assetstore.unity.com/publishers/26267), where we provide a wide variety of game assets to suit your unique needs.
 
 # Getting Started:
 
@@ -530,45 +536,32 @@ Since we're using the same script function for both keyboard input and on-screen
 
 To Fix this we need to Uncomment the lines of code related to mobile input controller for this functionality to work. Open the JSVehicleLightControl.cs and uncomment the below line of codes inside the Update() function
 
-        // Uncomment the below function so that the the reverse light for mobile will work
+```
+// Uncomment the below function so that the reverse light for mobile will work
 
-        // if (mobileInputController.revButton.IsButtonPressed())
+// if (mobileInputController.revButton.IsButtonPressed())
+// {
+// ToggleReverseLights(true);
+// }
+// if (mobileInputController.revButton.IsButtonReleased())
+// {
+// ToggleReverseLights(false);
+// }
 
-        // {
 
-        //     ToggleReverseLights(true);
+// Uncomment the below function so that the the brake light for mobile will work
 
-        // }
+// if (mobileInputController.brakeButton.IsButtonPressed())
+// {
+// ToggleBrakeLights(true);
+// }
+// if (mobileInputController.brakeButton.IsButtonReleased())
+// {
+// ToggleBrakeLights(false);
+// }
+```
 
-        // if (mobileInputController.revButton.IsButtonReleased())
-
-        // {
-
-        //     ToggleReverseLights(false);
-
-        // }
-
-         //Uncomment the below function so that the the brake light for mobile will work
-
-       
-
-        // if (mobileInputController.brakeButton.IsButtonPressed())
-
-        // {
-
-        //     ToggleBrakeLights(true);
-
-        // }
-
-        // if (mobileInputController.brakeButton.IsButtonReleased())
-
-        // {
-
-        //     ToggleBrakeLights(false);
-
-        // }
-
-## Please Check out our Asset Store Page if you need any 3d Vehicles! for your projects!
+## Please feel free to browse our [Asset Store](https://assetstore.unity.com/publishers/26267), where we provide a wide variety of game assets to suit your unique needs.
 
 Asset Store Link: https://assetstore.unity.com/publishers/26267
 
